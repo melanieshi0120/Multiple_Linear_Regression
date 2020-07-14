@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20190109</pubdate>
+                <title>ACS: Labor Force Status By Presence Of A Computer And Types Of Internet Subscription In Household / acs_b28007_labortypeinternethshld</title>
+                <edition>One</edition>
+                <geoform>tabular digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>King County</publish>
+                </pubinfo>
+                <othercit>U.S. Census American Community Survey 2013-2017 5-Year Data</othercit>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=29a86ca6e67e48c9ab92bf3fd1492641</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=976424a73b714776a73087e3243eff4a</onlink>
+                <onlink>https://www5.kingcounty.gov/sdc/Metadata.aspx?Layer=acs_b28007_labortypeinternethshld</onlink>
+                <onlink>https://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterTermsAndConditions.pdf</onlink>
+                <onlink>https://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterHelpUsingKCOpenData.pdf</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Updated for 2013-17: US Census American Community Survey data table for: COMPUTER AND INTERNET USAGE subject area. Provides information about: LABOR FORCE STATUS BY PRESENCE OF A COMPUTER AND TYPES OF INTERNET SUBSCRIPTION IN HOUSEHOLD for the universe of: CIVILIAN HOUSEHOLD POPULATION 16 YEARS AND OVER. These data are extrapolated estimates only, based on sampling; they are not actual complete counts. The data is based on 2010 Census Tracts. Table ACS_B28007_LABORTYPEINTERNETHSHLD contains both the Estimate value in the E item for the census topic and an adjacent M item which defines the Margin of Error for the value. The Margin of Error (MOE) is the plus/minus range for the item estimate value, where the range between the Estimate minus the Margin of Error and the Estimate plus the Margin of Error defines the 90% confidence interval of the item value. Many of the Margin of Error values are significant relative to the size of the Estimate value. This table contains 20 item(s) extracted from a larger sequence table. This extracted subset represents that portion of the sequence that is considered high priority. Other portions of this sequence that are not included can be identified in the data dictionary information provided in the Supplemental Information section. This table information is also provided as a customized layer file: B28007_AREA_LABORTYPEINTERNETHSHLD.lyr where the table information is joined to the 2010 TRACTS_AREA census geography on the GEOID item. Both the table and customized lyr file name do not contain the year descriptor (i.e. 2013-2017) for the current ACS series. This is intentional in order to maintain the same table name in each successive ACS update. The alias of each item's (E)stimate and (M)easure of Error value stores this year date information as beginning YY and ending YY, i.e., 'E1317' and 'M1317' followed by the rest of the alias description. In this way users of the data tables or lyr files that support field aliases can determine which ACS series is being represented by the current table contents. The next 5-year sample of ACS, representing the current year minus 1, becomes available in December of each year. For example, the next series - 2014 through 2018 - will become available at the end of 2019. The new 2017 data will be posted to the Spatial Data Warehouse by January 2019. The previous series of data is retired to the Historical Data Library geodatabase (according to the ACS series end date) from where it can be accessed if needed.</abstract>
+            <purpose>Updated for 2013-17: Provides a multi-year statistical estimate for selected demographic, social, economic and housing characteristics. These estimates represent concepts that are fundamentally different from those associated with sample data from the decennial census long form. Further, because ACS data are collected continuously, they are not always compatible with data collected from the decennial census. This data is a sample size based on a 5-year period. The sample size based on the 5 year period estimates is still smaller than the decennial census, resulting in larger standard errors. A five year estimate represents data collected over a 60 month period. Therefore ACS estimates based on data collected from this 2013-2017 period should not be labeled as '2015' estimates, even though that is the midpoint of the 5-year period.</purpose>
+            <supplinf>https://www5.kingcounty.gov/sdc/addl_doc/ACSTableNotes/ACS_17_5YR_B28007.pdf</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20130101</begdate>
+                    <enddate>20171231</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <keywords>
+            <theme>
+                <themekt>Not applicable</themekt>
+                <themekey>American Community Survey</themekey>
+                <themekey>census</themekey>
+                <themekey>demographics</themekey>
+                <themekey>census_OpenData</themekey>
+                <themekey>kingcounty_opendata</themekey>
+                <themekey>labor</themekey>
+                <themekey>computer</themekey>
+                <themekey>internet</themekey>
+                <themekey>subscription</themekey>
+                <themekey>household</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>society</themekey>
+            </theme>
+            <place>
+                <placekt>Not applicable</placekt>
+                <placekey>King County</placekey>
+                <placekey>Washington State</placekey>
+                <placekey>WA</placekey>
+                <placekey>Pacific NW</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>King County data are made available with the understanding that they shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means without the express written authorization of King County. Users are encouraged to appropriately evaluate and display the margin of error when analyzing and mapping this data</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County GIS Center</cntorg>
+                    <cntper>Mary Ullrich</cntper>
+                </cntorgp>
+                <cntpos>GIS Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson, ste 225</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-477-4420</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <datacred>US Census American Community Survey</datacred>
+        <native>Esri ArcGIS 10.3.1.4959</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Each value for a given item is an estimate (E) of that value. Adjacent to each E item is a M (margin of error) value. The margin of error value describes the possible range of error in the estimage value. The upper and lower bounds describe the 90% confidence interval for this value, i.e., there is 90% chance that the actual value of the item will fall between the bounds defined by the estimage - the margin of error and the estimage + the margin of error. In addition to sampling variability, the ACS estimates are subject to nonsampling error.</attraccr>
+        </attracc>
+        <logic>Each 2010 Census Tract has one record. Each record contains the estimate for that item definition adjacent to the margin of error for that value.</logic>
+        <complete>Covers all of King County</complete>
+        <lineage>
+            <procstep>
+                <procdesc>7. Create layer files joining tables to Census tracts: From the production data new layer files are created by joining the 2010 Census tract geometry with each table (on GEOID) to create a unique layer file for each table.</procdesc>
+                <procdate>20190109</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>5. Create FGDC metadata from Data Dictionary and import/upgrade to tables: Script: Build ACSTableMetadata.py Script uses the Data Dictionary to build an FGDC document for each table.</procdesc>
+                <procdate>20190109</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>3. Update Data Dictionary as necessary for new tables to be published: Script: UpdateACSDataDictionary.py Corrections or updates to Data Dictionary are made to master xls in Documentation folder, and new records are imported into master Data Dictionary gdb table.</procdesc>
+                <procdate>20190109</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>4. Build new tables, import data and QA Data Dictionary to raw data alignment: Script: BuildACSProductionTables.py Script creates gdb table header from Data Dictionary entries, loads from raw data files. Simultaneoulsy, a separate QualityAssement report for each table merges the headers from the Data Dictionary with the headers from the raw data tables. These files are visually inspected to ensure that the sequences from the Data Dictionary have remained the same from the previous ACS cycle, and that the correct data is loaded on the correct table header.</procdesc>
+                <procdate>20190109</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>6. Final QA, then register and post tables to Spatial Data Warehouse (SDW): Each table is inspected for completness -i.e., all tables have the correct number of rows and columns and each table has completed metadata attached. Each table name is registered with Steward Tool and posted to the SDW. New table names are advertised to users using the GIS Data Digest.</procdesc>
+                <procdate>20190109</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>1. Raw data tables downloaded from Census ACS site: Maintenance plan (in Documentation folder) provides details on how to download and store the extracted files.</procdesc>
+                <procdate>20190109</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>2. Raw data table content inspected for non-integer values and floating point items: Script: ReviewRawDataContent.py Analyze raw data table and produce report. Inspect raw data tables and remove/modify to eliminate non-integer values.</procdesc>
+                <procdate>20190109</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>8. Create and publish FGDC metadata from Data Dictionary for layer files: Script: BuildACSLYRFileMetadata.py Script is used to query Data Dictionary for attributes to create an FDGC document for each layer file which is then published to the SDW.</procdesc>
+                <procdate>20190109</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>9. Spot-check completed tables against random FactFinder queries: Random spot-checks are executed comparing individual values in selected completed tables against queries generated for the same tract and attribute from the Census ACS website FactFinder.</procdesc>
+                <procdate>20190109</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>PLIBRARY.CENSUS.acs_b28007_labortypeinternethshld</enttypl>
+                <enttypd>Table</enttypd>
+                <enttypds>US Census</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GEOID</attrlabl>
+                <attrdef>2010 Census Tract full Geographic Identifier, including US, State and County designators</attrdef>
+                <attrdefs>US Census</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>20 character string such as 1400000US53033031100</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GEOIDTRT</attrlabl>
+                <attrdef>2010 Census Tract Geographic Identifier, excluding the US portion, used as the primary key in the join to TRACTS10_AREA identifier</attrdef>
+                <attrdefs>US Census</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>11 character string such as 53033031100</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRACTLABEL</attrlabl>
+                <attrdef>Narrative Census Tract Identifier</attrdef>
+                <attrdefs>US Census</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Variable length characters string, such as Census Tract 316.06, King County, Washington</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007101</attrlabl>
+                <attrdef>E1317 - Total:</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>9962.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007101</attrlabl>
+                <attrdef>M131717 - Total:</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>12.0</rdommin>
+                        						
+                        <rdommax>958.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007102</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>7755.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007102</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>12.0</rdommin>
+                        						
+                        <rdommax>815.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007103</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Employed:</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>7253.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007103</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Employed:</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>12.0</rdommin>
+                        						
+                        <rdommax>792.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007104</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Employed:Has a computer:</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>7213.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007104</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Employed:Has a computer:</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>12.0</rdommin>
+                        						
+                        <rdommax>810.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007105</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Employed:Has a computer:With dial-up Internet subscription alone</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>141.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007105</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Employed:Has a computer:With dial-up Internet subscription alone</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>3.0</rdommin>
+                        						
+                        <rdommax>164.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007106</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Employed:Has a computer:With a broadband Internet subscription</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>6923.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007106</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Employed:Has a computer:With a broadband Internet subscription</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>12.0</rdommin>
+                        						
+                        <rdommax>804.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007107</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Employed:Has a computer:Without an Internet subscription</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>466.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007107</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Employed:Has a computer:Without an Internet subscription</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>11.0</rdommin>
+                        						
+                        <rdommax>368.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007108</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Employed:No computer</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>486.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007108</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Employed:No computer</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>6.0</rdommin>
+                        						
+                        <rdommax>479.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007109</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Unemployed:</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>502.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007109</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Unemployed:</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>6.0</rdommin>
+                        						
+                        <rdommax>264.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007110</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Unemployed:Has a computer:</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>464.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007110</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Unemployed:Has a computer:</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>6.0</rdommin>
+                        						
+                        <rdommax>264.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007111</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Unemployed:Has a computer:With dial-up Internet subscription alone</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>36.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007111</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Unemployed:Has a computer:With dial-up Internet subscription alone</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>11.0</rdommin>
+                        						
+                        <rdommax>40.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007112</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Unemployed:Has a computer:With a broadband Internet subscription</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>439.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007112</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Unemployed:Has a computer:With a broadband Internet subscription</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>6.0</rdommin>
+                        						
+                        <rdommax>264.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007113</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Unemployed:Has a computer:Without an Internet subscription</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>137.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007113</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Unemployed:Has a computer:Without an Internet subscription</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>4.0</rdommin>
+                        						
+                        <rdommax>158.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007114</attrlabl>
+                <attrdef>E1317 - In the civilian labor force:Unemployed:No computer</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>106.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007114</attrlabl>
+                <attrdef>M131717 - In the civilian labor force:Unemployed:No computer</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>4.0</rdommin>
+                        						
+                        <rdommax>119.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007115</attrlabl>
+                <attrdef>E1317 - Not in labor force:</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>3499.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007115</attrlabl>
+                <attrdef>M131717 - Not in labor force:</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>12.0</rdommin>
+                        						
+                        <rdommax>471.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007116</attrlabl>
+                <attrdef>E1317 - Not in labor force:Has a computer:</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>3274.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007116</attrlabl>
+                <attrdef>M131717 - Not in labor force:Has a computer:</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>12.0</rdommin>
+                        						
+                        <rdommax>466.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007117</attrlabl>
+                <attrdef>E1317 - Not in labor force:Has a computer:With dial-up Internet subscription alone</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>69.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007117</attrlabl>
+                <attrdef>M131717 - Not in labor force:Has a computer:With dial-up Internet subscription alone</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>3.0</rdommin>
+                        						
+                        <rdommax>89.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007118</attrlabl>
+                <attrdef>E1317 - Not in labor force:Has a computer:With a broadband Internet subscription</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>3164.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007118</attrlabl>
+                <attrdef>M131717 - Not in labor force:Has a computer:With a broadband Internet subscription</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>12.0</rdommin>
+                        						
+                        <rdommax>448.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007119</attrlabl>
+                <attrdef>E1317 - Not in labor force:Has a computer:Without an Internet subscription</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>478.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007119</attrlabl>
+                <attrdef>M131717 - Not in labor force:Has a computer:Without an Internet subscription</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>8.0</rdommin>
+                        						
+                        <rdommax>325.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>E28007120</attrlabl>
+                <attrdef>E1317 - Not in labor force:No computer</attrdef>
+                <attrdefs>US Census Estimate</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>0.0</rdommin>
+                        						
+                        <rdommax>610.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M28007120</attrlabl>
+                <attrdef>M131717 - Not in labor force:No computer</attrdef>
+                <attrdefs>US Census Margin of Error</attrdefs>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>10.0</rdommin>
+                        						
+                        <rdommax>337.0</rdommax>
+                        						
+                        <attrunit>Count or Dollar</attrunit>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>Each table item name (field name) is a 9 or 10 character alpha-numeric string (such as E03002022) that provides information about whether the item is an Estimate value or Margin of Error value (E or M, respectively), which table the item is associated with (next 5 or 6 characters), and the item position in the larger data sequence (last 3 numbers). Actual table names are 6 or 7 characters, but for use in item names are stripped of their leading letter so that the item name uses a modified identifier of 5 or 6 characters, depending on table. This was done so that any item name is comprised of the leading E or M (1 char) plus the modified table identifer (6 char, maximum) + the item position (3 char), totaling 10 characters, the maximum allowed to create unique table items that are dbf compliant (maximum 10 characters). Users will find the the common language alias, associated with each item useful in determining the identify of a field value. Each Estimate value (stored in E item) is paired with a Margin of Error value stored in the M item for the same item number. Some data tables contained non-numeric characters, either representing the entire field value or appended to a integer value. Where the symbol was appended to a valid value, (such as + and -, to indicate that the value occurs in the upper and lower range of the open ended distribuiton) the symbol was removed. Where the symbol appeared by itself (i.e., -) the symbol was removed and the cell was left blank. Other non-integer symbols include asterisk(s) and 'N' and (X), where each symbol represents a different level of insufficient statistical viability; in these cases the symbols were removed and the fields left blank. More information can be found in the documents referenced in the Supplemental Information section. Edits made to values in specific tables can be found in the Supplemental Information document titled acs1317_ReviewRawDataContentReport.xls</eaover>
+            <eadetcit>US Census, King County</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>KCGIS Center</cntorg>
+                    <cntper>giscenter@kingcounty.gov</cntper>
+                </cntorgp>
+                <cntpos>Data Sales Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, ste 706</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98014</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-477-4403</cntvoice>
+            </cntinfo>
+        </distrib>
+        <resdesc>/plibrary2/census/shapes/table/acs_b28007_labortypeinternethshld.dbf</resdesc>
+        <distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>DBF Table</formname>
+                </digtinfo>
+                <digtopt/>
+            </digform>
+            <fees>Contact KCGIS Client Services for the cost of reproduction - https://www.kingcounty.gov/operations/GIS/GISData/GISDataDistribution.aspx</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20190109</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County GIS Center</cntorg>
+                    <cntper>Mary Ullrich</cntper>
+                </cntorgp>
+                <cntpos>GIS Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Ste 225</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-477-4420</cntvoice>
+                <cntemail>firstname.lastname@kingcounty.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
