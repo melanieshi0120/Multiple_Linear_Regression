@@ -15,4 +15,24 @@ In this section, some important features were selected for analyzing based on th
 ![image/price.png](image/price.png)
 We can see that the mean of the price is stabel and there is one big fluctuation between 2014 09 29  to 2014 11 18.
 In order to add up dummy variable, the zipcodes were converted into city names using uszipcode library, then convert those cities into dummy variables.
-###  Distribution of features and 
+###  Distribution of features and feature Engieering
+####  Distribution of Features & Outlier Removel  - Before
+![image/feature_distribution _before.png](image/feature_distribution _before.png)
+####  Distribution of Features & Outlier Removel - After
+![image/distribution_after.png](image/distribution_after.png)
+### More EDA
+#### Price VS Bedroom
+![image/bedroom_vs_price.png](image/bedroom_vs_price.png)
+#### Price VS sqft_living - Linearity and Homoskedasticity
+![image/sqft_living_vs_price.png](image/sqft_living_vs_price.png)
+#### Basement VS Price 
+![image/basement_vs_price.png](image/basement_vs_price.png)
+#### Condition vs Price 
+![image/condition_vs_price.png](image/condition_vs_price.png)
+####  Grade vs Price
+![image/grade_vs_price.png](image/grade_vs_price.png)
+#### Building   Age VS Price
+![image/building_age_vs_price.png](image/building_age_vs_price.png)
+
+
+
