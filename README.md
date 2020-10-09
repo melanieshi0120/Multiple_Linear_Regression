@@ -33,6 +33,7 @@ In order to add up dummy variable, the zipcodes were converted into city names u
 ![image/grade_vs_price.png](image/grade_vs_price.png)
 #### Building   Age VS Price
 ![image/building_age_vs_price.png](image/building_age_vs_price.png)
-
+#### Cities VS Price
+![image/kc_map.png](image/kc_map.png)
 
 
