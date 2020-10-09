@@ -8,3 +8,11 @@ We will predict the sales of houses in King County with an accuracy of at least 
 
 The dataset consists of house prices from King County an area in the US State of Washington, this data also covers Seattle. The dataset was obtained from Kaggle. This data was published/released under CC0: Public Domain. Unfortunately, the user has not indicated the source of the data. Please find the citation and database description in the Glossary and Bibliography.
 The dataset consisted of 21 variables and 21613 observations.
+## Data Cleaning & EDA
+In this section, some important features were selected for analyzing based on the feature information. For example, the square feet of the house and the numbers of the house. Obviously, normally the bigger size the house is, the more room there might be, and one variable can partially explain another one. So in order to avoid multicollinearity, I selected variables that can explain the independent variables well.
+
+### The changes housing price by time
+![image/price.png](image/price.png)
+We can see that the mean of the price is stabel and there is one big fluctuation between 2014 09 29  to 2014 11 18.
+In order to add up dummy variable, the zipcodes were converted into city names using uszipcode library, then convert those cities into dummy variables.
+###  Distribution of features and 
