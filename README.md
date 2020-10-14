@@ -41,10 +41,15 @@ In order to add up dummy variable, the zip codes were converted into city names 
 In this part, the library train_test_split was imported from sklearn.model_selection to split the train and test data. Selected features are based on correlation between features, then merged with dummy variables (cities).
 ![image/feature_selection.png](image/feature_selection.png)
 ## Linear Regression
+###
 In modeling part, Linear Regression was applied to predict the housing price in King County. The following list shows the coefficients of all variables - 
 ![image/coeff.png](image/coeff.png)
 We can see that most coefficients are positive and only two of them are negative.
 If the features' coefficients are positive that means the features can positively affect housing price. However, there is more important sector we need to know which is called p-value. P-value is part of statistical analysis using hypothesis test. If p-values smaller and equal to 0.05, then the features will significantly affect the independent variables, and we can see all features' p-values are significantly smaller than 0.05. 
 ![image/coeff_p-values.png](image/coeff_p-values.png)
+###
+After obtained the predicted values, the first thing we need to do is to see the distribution of our residuals. The images below are the residuals of train and test datasets. Also we can take a look at the results - to see how good our model is -  if the scatter plot for actual values and predicted values shows 45 degree trend, that means our model is good enough, because 45 degree means the slope is 1 which implies that our predicted values converge to actual values.
+![image/actual_vs_predict.png](image/actual_vs_predict.png)
+![image/actual_vs_predict_scatter.png](image/actual_vs_predict_scatter.png)
 
 
