@@ -2,7 +2,7 @@
 ##
 The goal of this project is to forecast the housing price of King County.
 The data is from [Kaggle.com](https://www.kaggle.com/shivachandel/kc-house-data/tasks).
-##
+## File from Kaggle and more information
 Online property companies offer valuations of houses using machine learning techniques. The aim of this report is to predict the house sales in King County, Washington State, USA using Multiple Linear Regression (MLR). The dataset consisted of historic data of houses sold between May 2014 to May 2015.
 We will predict the sales of houses in King County with an accuracy of at least 75-80% and understand which factors are responsible for higher property value - $650K and above.”
 
@@ -13,8 +13,8 @@ In this section, some important features were selected for analyzing based on th
 
 ### The changes housing price by time
 ![image/price.png](image/price.png)
-We can see that the mean of the price is stabel and there is one big fluctuation between 2014 09 29  to 2014 11 18.
-In order to add up dummy variable, the zipcodes were converted into city names using uszipcode library, then convert those cities into dummy variables.
+We can see that the mean of the price is stable and there is one big fluctuation between 2014 09 29  to 2014 11 18.
+In order to add up dummy variable, the zip codes were converted into city names using uszipcode library, then convert those cities into dummy variable.
 ###  Distribution of features and feature Engieering
 ####  Distribution of Features & Outlier Removel  - Before
 ![image/feature_distribution _before.png](image/feature_distribution _before.png)
@@ -33,7 +33,12 @@ In order to add up dummy variable, the zipcodes were converted into city names u
 ![image/grade_vs_price.png](image/grade_vs_price.png)
 #### Building   Age VS Price
 ![image/building_age_vs_price.png](image/building_age_vs_price.png)
-#### Cities VS Price
+#### Cities VS Price (Map)
 ![image/kc_map.png](image/kc_map.png)
+#### Cities VS Price (Mean, Barchart)
+![image/barchart_for_cities.png](image/barchart_for_cities.png)
+
+
+
 
 
