@@ -43,6 +43,8 @@ In this part, the library train_test_split was imported from sklearn.model_selec
 ## Linear Regression
 In modeling part, Linear Regression was applied to predict the housing price in King County. The following list shows the coefficients of all variables - 
 ![image/coeff.png](image/coeff.png)
-
+We can see that most coefficients are positive and only two of them are negative.
+If the features' coefficients are positive that means the features can positively affect housing price. However, there is more important sector we need to know which is called p-value. P-value is part of statistical analysis using hypothesis test. If p-values smaller and equal to 0.05, then the features will significantly affect the independent variables, and we can see all features' p-values are significantly smaller than 0.05. 
+![image/coeff_p-values.png](image/coeff_p-values.png)
 
 
