@@ -37,9 +37,12 @@ In order to add up dummy variable, the zip codes were converted into city names 
 ![image/kc_map.png](image/kc_map.png)
 #### Cities VS Price (Mean, Barchart)
 ![image/barchart_for_cities.png](image/barchart_for_cities.png)
-### Data Preprocessing & Feature Engieering
-In this part, the library train_test_split was imported from sklearn.model_selection to split the train and test data. Selected features are based on correlation between features, then merged with dummy variables (Cities).
+## Data Preprocessing & Feature Engieering
+In this part, the library train_test_split was imported from sklearn.model_selection to split the train and test data. Selected features are based on correlation between features, then merged with dummy variables (cities).
 ![image/feature_selection.png](image/feature_selection.png)
+## Linear Regression
+In modeling part, Linear Regression was applied to predict the housing price in King County. The following list shows the coefficients of all variables - 
+![image/coeff.png](image/coeff.png)
 
 
 
